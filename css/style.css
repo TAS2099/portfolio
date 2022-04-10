@@ -171,6 +171,37 @@ a {
 }
 
 /*--------------------------------
+ About
+---------------------------------*/
+.profile {
+  display: flex;
+  max-width: 750px;
+  height: 300px;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.profile-img img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+}
+
+.profile-body {
+  width: 100%;
+  margin: 60px;
+}
+
+.profile-body h1 {
+  font-size: 30px;
+}
+
+.profile-body p {
+  font-size: 15px;
+  line-height: 35px;
+}
+
+/*--------------------------------
  Works
 ---------------------------------*/
 .works-list {
@@ -244,36 +275,6 @@ a {
 .skill-text {
   font-size: 14px;
   line-height: 1.8;
-}
-
-/*--------------------------------
- About
----------------------------------*/
-.profile {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
-}
-.profile-img {
-  width: 20%;
-  margin-right: 30px;
-  border-radius: 50%;
-}
-.profile-img img {
-  border-radius: 50%;
-}
-.profile-body {
-  flex: 1;
-}
-
-.profile-body p {
-  font-size: 15px;
-  line-height: 1.8;
-}
-
-.profile-body p:not(:last-child) {
-  margin-bottom: 30px;
 }
 
 /*--------------------------------
@@ -460,6 +461,22 @@ a {
     line-height: 1.7;
   }
 
+
+  /* About */
+  .profile {
+    display: block;
+  }
+  .profile-img {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  .profile-body p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
   /* Works */
   .works-name {
     font-size: 12px;
@@ -501,25 +518,6 @@ a {
   .skill-text {
     font-size: 13px;
     line-height: 1.7;
-  }
-
-  /* About */
-  .profile {
-    display: block;
-  }
-  .profile-img {
-    width: 150px;
-    margin: 0 auto;
-    margin-bottom: 25px;
-  }
-
-  .profile-body p {
-    font-size: 14px;
-    line-height: 1.7;
-  }
-
-  .profile-body p:not(:last-child) {
-    margin-bottom: 20px;
   }
 
   /* フッター */
